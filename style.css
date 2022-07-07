@@ -1,37 +1,207 @@
-body{
-    font-family: 'Roboto Mono', monospace;
+body {
     margin: 0;
     padding: 0;
-    box-sizing:content-box;
-    }
-    .hero-banner{
-        width: 100%;
-        height: 100vh;
-        background-image:url(images/donation4.jpg);
-        background-size: cover;
-        background-position: center;
-        padding: auto;
-    }
-    .hero-banner h1{
-        margin-top: 15px;
-        font-weight: 600;
-        font-size: 50px;
-        text-align: center;
-        color: white;
-    }
-    .hero-banner p{
-        font-weight: 300;
-        font-size: 20px;
-        text-align: center;
-        color: white;
-    }
-    .donate-bottun{
-        text-decoration: none;
-        background-image: linear-gradient(green,red);
-        padding: 10px 40px;
-        border-radius: 5px;
-        color: black;
-        font-weight: 700;
-        margin: 300px 600px;
-        
-    }
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+.hero-sec {
+    display: flex;
+}
+
+.hero-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/donation4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: auto;
+
+}
+
+.hero-banner h1 {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.hero-banner p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-image: linear-gradient(black, white);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 500px;
+}
+
+.donate-option h1 {
+    margin: 30px;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.donate-option p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.donation-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.donate-tk {
+    display: flex;
+    position: relative;
+    width: calc(100px - 10px);
+    height: calc(100px - 10px);
+    float: left;
+    margin: 25px;
+    left: 10%;
+    padding: 200px auto;
+    box-sizing: border-box;
+    background-color: hsla(0, 20%, 97%, 0.932);
+    border: solid #f4fcfc;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+
+}
+
+.donate-tk-1 {
+    display: flex;
+    position: relative;
+    width: calc(100px - 10px);
+    height: calc(100px - 10px);
+    float: left;
+    margin: 25px;
+    left: 12%;
+    padding: 200px auto;
+    box-sizing: border-box;
+    background-color: hsla(0, 20%, 97%, 0.932);
+    border: solid #c32323;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.box-area {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    background: white;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
+.container .box-1 {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #AAB7B8;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box-2 {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #F2D7D5;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box-3 {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #FCF3CF;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.newsletter-area {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-align: center;
+    background: rgb(253, 236, 140);
+    padding: 14px;
+}
+
+.newsletter-area h1 {
+    color: #198ef4;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.newsletter-area input {
+    font-size: 18px;
+    width: 60%;
+    border: none;
+    padding: 15px 20px;
+    margin-right: 10px;
+    outline: none;
+    background: #F2D7D5;
+}
+
+.newsletter-area button {
+    color: #198ef4;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: rgb(219, 54, 54);
+
+}
