@@ -113,6 +113,7 @@ body {
     height: 300px;
     margin: 240px auto;
     background: white;
+    margin-top: -10px;
 
 }
 
@@ -174,6 +175,7 @@ body {
     text-align: center;
     background: rgb(253, 236, 140);
     padding: 14px;
+    margin-top: -30px;
 }
 
 .newsletter-area h1 {
@@ -186,22 +188,43 @@ body {
 }
 
 .newsletter-area input {
-    font-size: 18px;
-    width: 60%;
+    font-size: 15px;
+    width: 40%;
     border: none;
-    padding: 15px 20px;
-    margin-right: 10px;
+    padding: 10px 15px;
+    margin-right: -10pxpx;
     outline: none;
     background: #F2D7D5;
 }
 
 .newsletter-area button {
     color: #198ef4;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     border: none;
     border-radius: 5px;
-    padding: 15px 20px;
+    padding: 10px 15px;
     background: rgb(219, 54, 54);
 
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: black;
+    margin-top: 300px;
+    padding-bottom: -30px;
+
+}
+
+.footer-area h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer-area p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
 }
